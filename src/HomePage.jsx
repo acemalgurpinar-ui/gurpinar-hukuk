@@ -209,6 +209,7 @@ const whatsappMessage = encodeURIComponent(
 const navLinks = [
   { label: "Çalışma Alanları", href: "#calisma-alanlari" },
   { label: "Hakkında", href: "#hakkinda" },
+  { label: "Blog", href: "/blog" },
   { label: "Faydalı Linkler", href: "#faydali-linkler" },
   { label: "SSS", href: "#sss" },
   { label: "İletişim", href: "#iletisim" },
@@ -535,7 +536,7 @@ export default function HomePage() {
   return (
   <div ref={ref} className="relative min-h-screen bg-[#0B0B0C] text-white">
     <SEO
-      title="Gürpınar Hukuk | Samsun Atakum Avukat ve Hukuki Danışmanlık"
+      title="Av. Nisa Selin Gürpınar | Samsun Atakum Avukatlık ve Hukuki Danışmanlık"
       description="Gürpınar Hukuk, Samsun Atakum'da aile hukuku, tazminat hukuku, miras hukuku, taşınmaz hukuku, icra ve iflas hukuku ile hukuki danışmanlık alanlarında avukatlık hizmeti sunmaktadır."
       canonical="https://gurpinarhukuk.com/"
     />
@@ -561,7 +562,7 @@ export default function HomePage() {
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-0">
           <div className="flex items-center gap-4">
             <img src={logoSrc} alt="Gürpınar Hukuk logosu" className="h-20 w-auto" />
-            <div className="text-sm uppercase tracking-[0.30em] text-[#D4B26D]">
+            <div className="text-sm uppercase tracking-[0.40em] text-[#D4B26D] font-serif font">
               Gürpınar Hukuk
             </div>
           </div>
