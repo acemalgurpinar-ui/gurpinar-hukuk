@@ -13,6 +13,8 @@ import SaglikHukuku from "./pages/SaglikHukuku.jsx";
 import Malpraktis from "./pages/Malpraktis.jsx";
 import HukukiDanismanlik from "./pages/HukukiDanismanlik.jsx";
 import IcraIflasHukuku from "./pages/IcraIflasHukuku.jsx";
+import BlogPage from "./pages/BlogPage.jsx";
+import BlogPostPage from "./pages/BlogPostPage.jsx";
 import PolicyPage from "./pages/PolicyPage.jsx";
 
 import "./index.css";
@@ -31,7 +33,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
           <Route path="/saglik-hukuku-samsun" element={<SaglikHukuku />} />
           <Route path="/malpraktis-avukati-samsun" element={<Malpraktis />} />
           <Route path="/hukuki-danismanlik-samsun" element={<HukukiDanismanlik />} />
-          <Route path="/icra-ve-iflas-hukuku-samsun" element={<IcraIflasHukuku />} />
+          <Route path="/blog" element={<BlogPage />} />
+          <Route path="/blog/:slug" element={<BlogPostPage />} />
           <Route path="/kvkk" element={<PolicyPage type="kvkk" />} />
           <Route path="/gizlilik-politikasi" element={<PolicyPage type="privacy" />} />
           <Route path="/cerez-politikasi" element={<PolicyPage type="cookies" />} />
