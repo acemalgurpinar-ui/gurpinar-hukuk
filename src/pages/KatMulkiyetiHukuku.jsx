@@ -1,0 +1,75 @@
+import { motion } from "framer-motion";
+import SubPageHeader from "../components/SubPageHeader";
+import SEO from "../components/SEO";
+import SchemaMarkup from "../components/SchemaMarkup";
+
+export default function KatMulkiyetiHukuku() {
+  return (
+    <div className="min-h-screen bg-[#0B0B0C] px-6 py-24 text-white">
+
+      <SEO
+        title="Samsun Kat Mülkiyeti Hukuku Avukatı | Aidat ve Site Yönetimi | Gürpınar Hukuk"
+        description="Apartman ve site yönetimi, aidat ve ortak gider uyuşmazlıkları için Samsun’da kat mülkiyeti hukuku desteği."
+        canonical="https://gurpinarhukuk.com/kat-mulkiyeti-hukuku-samsun"
+      />
+
+      <SchemaMarkup
+        name="Samsun Kat Mülkiyeti Hukuku Avukatı | Gürpınar Hukuk"
+        description="Aidat, yönetim planı ve site uyuşmazlıklarına ilişkin hukuki destek."
+        url="https://gurpinarhukuk.com/kat-mulkiyeti-hukuku-samsun"
+        serviceType="Kat Mülkiyeti Hukuku"
+      />
+
+      <div className="mx-auto max-w-4xl">
+        <SubPageHeader />
+        <div className="mb-4 h-[2px] w-10 bg-[#D4B26D]" />
+        <h1 className="text-4xl font-semibold tracking-[-0.02em] md:text-5xl">
+          Samsun Kat Mülkiyeti Hukuku Avukatı
+        </h1>
+
+        <p className="mt-6 leading-8 text-white/70">
+          Kat mülkiyeti hukuku; apartman ve site yaşamından doğan aidat, ortak gider,
+          yönetim planı ve komşuluk ilişkilerine dair uyuşmazlıkları kapsar.
+        </p>
+
+        <section className="mt-12">
+          <h2 className="mb-4 text-2xl font-semibold">Aidat ve Ortak Gider Uyuşmazlıkları</h2>
+          <p className="leading-8 text-white/70">
+            Aidat borçları, ortak gider paylaşımı ve yönetim kararlarının uygulanması
+            kat mülkiyeti hukukunda sıkça karşılaşılan uyuşmazlıklardır.
+          </p>
+        </section>
+
+        <section className="mt-10">
+          <h2 className="mb-4 text-2xl font-semibold">Yönetim Planı ve Kurul Kararları</h2>
+          <p className="leading-8 text-white/70">
+            Yönetim planı hükümleri ile kat malikleri kurulu kararlarının hukuka uygunluğu
+            birçok uyuşmazlığın çözümünde belirleyici rol oynar.
+          </p>
+        </section>
+
+        <section className="mt-10">
+          <h2 className="mb-4 text-2xl font-semibold">Komşuluk Hukuku</h2>
+          <p className="leading-8 text-white/70">
+            Ortak yaşam alanlarından kaynaklanan kullanım, rahatsızlık ve sınır sorunları
+            komşuluk hukukunun değerlendirme alanına girer.
+          </p>
+        </section>
+
+        <motion.div
+          className="mt-16 rounded-2xl border border-white/10 bg-white/[0.03] p-10"
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+        >
+          <h3 className="text-2xl font-semibold">Kat mülkiyeti hukuku desteği alın</h3>
+          <p className="mt-4 text-white/60">
+            Apartman ve site kaynaklı uyuşmazlıklar için ofisimizle iletişime geçebilirsiniz.
+          </p>
+          <a href="/#iletisim" className="mt-6 inline-block rounded-full bg-white px-6 py-3 text-sm font-medium text-black">
+            İletişime Geç
+          </a>
+        </motion.div>
+      </div>
+    </div>
+  );
+}

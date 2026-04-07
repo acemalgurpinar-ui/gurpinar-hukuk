@@ -1,0 +1,49 @@
+<svg width="100%" viewBox="0 0 500 510" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  
+</defs>
+
+<rect width="500" height="500" style="fill:rgb(17, 14, 10);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+<!-- Terazi — geometrik köşeli tasarım -->
+<g transform="translate(250, 190)" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
+
+  <!-- Tepe küçük kare -->
+  <rect x="-5" y="-98" width="10" height="10" style="fill:rgb(155, 110, 66);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Ana gövde -->
+  <rect x="-2" y="-88" width="4" height="126" style="fill:rgb(155, 110, 66);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Üst yatay kol -->
+  <rect x="-75" y="-78" width="150" height="3" style="fill:rgb(155, 110, 66);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Sol dikey inen zincir -->
+  <rect x="-75" y="-75" width="2.5" height="42" style="fill:rgb(155, 110, 66);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <!-- Sağ dikey inen zincir -->
+  <rect x="72.5" y="-75" width="2.5" height="42" style="fill:rgb(155, 110, 66);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Sol kefe — düz köşeli kutu (alt açık) -->
+  <polyline points="-92,-33 -92,-20 -58,-20 -58,-33" fill="none" stroke-width="2.5" stroke-linecap="square" style="fill:none;stroke:rgb(155, 110, 66);color:rgb(255, 255, 255);stroke-width:2.5px;stroke-linecap:square;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Sağ kefe — düz köşeli kutu (alt açık) -->
+  <polyline points="58,-33 58,-20 92,-20 92,-33" fill="none" stroke-width="2.5" stroke-linecap="square" style="fill:none;stroke:rgb(155, 110, 66);color:rgb(255, 255, 255);stroke-width:2.5px;stroke-linecap:square;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Kaide -->
+  <rect x="-13" y="36" width="26" height="22" rx="0" style="fill:rgb(155, 110, 66);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <rect x="-35" y="56" width="70" height="4" rx="0" style="fill:rgb(155, 110, 66);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+</g>
+
+<!-- Üst çizgi -->
+<line x1="100" y1="310" x2="400" y2="310" stroke-width="0.7" style="fill:rgb(0, 0, 0);stroke:rgb(155, 110, 66);color:rgb(255, 255, 255);stroke-width:0.7px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+<!-- Ana metin -->
+<text x="250" y="336" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="26" font-weight="400" letter-spacing="4" style="fill:rgb(240, 235, 228);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Georgia, &quot;Times New Roman&quot;, serif;font-size:26px;font-weight:400;text-anchor:middle;dominant-baseline:auto">GÜRPINAR HUKUK</text>
+
+<!-- Alt çizgi -->
+<line x1="100" y1="350" x2="400" y2="350" stroke-width="0.7" style="fill:rgb(0, 0, 0);stroke:rgb(155, 110, 66);color:rgb(255, 255, 255);stroke-width:0.7px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+<!-- Avukat ismi -->
+<text x="250" y="374" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-weight="400" letter-spacing="3" style="fill:rgb(200, 168, 130);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Georgia, &quot;Times New Roman&quot;, serif;font-size:10px;font-weight:400;text-anchor:middle;dominant-baseline:auto">AV. NİSA SELİN GÜRPINAR</text>
+
+</svg>

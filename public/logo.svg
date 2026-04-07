@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<svg width="500" height="510" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+
+ <!-- Terazi — geometrik köşeli tasarım -->
+ <!-- Üst çizgi -->
+ <!-- Ana metin -->
+ <!-- Alt çizgi -->
+ <!-- Avukat ismi -->
+ <g class="layer">
+  <title>Layer 1</title>
+  <rect fill="rgb(17, 14, 10)" height="345" id="svg_1" stroke-width="1px" width="363" x="68" y="64"/>
+  <g fill="rgb(0, 0, 0)" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="16px" font-weight="400" id="svg_2" stroke-width="1px" text-anchor="start">
+   <!-- Tepe küçük kare -->
+   <rect fill="rgb(155, 110, 66)" height="12.22" id="svg_3" stroke-width="1px" width="11.74" x="244.13" y="94"/>
+   <!-- Ana gövde -->
+   <rect fill="rgb(155, 110, 66)" height="153.91" id="svg_4" stroke-width="1px" width="4.7" x="247.65" y="106.22"/>
+   <!-- Üst yatay kol -->
+   <rect fill="rgb(155, 110, 66)" height="3.66" id="svg_5" stroke-width="1px" width="176.09" x="161.96" y="118.43"/>
+   <!-- Sol dikey inen zincir -->
+   <rect fill="rgb(155, 110, 66)" height="51.3" id="svg_6" stroke-width="1px" width="2.93" x="161.96" y="122.09"/>
+   <!-- Sağ dikey inen zincir -->
+   <rect fill="rgb(155, 110, 66)" height="51.3" id="svg_7" stroke-width="1px" width="2.93" x="335.11" y="122.09"/>
+   <!-- Sol kefe — düz köşeli kutu (alt açık) -->
+   <polyline fill="none" id="svg_8" points="142,173.3987274169922 142,189.2784881591797 181.9130401611328,189.2784881591797 181.9130401611328,173.3987274169922 " stroke="rgb(155, 110, 66)" stroke-linecap="square" stroke-width="2.5px"/>
+   <!-- Sağ kefe — düz köşeli kutu (alt açık) -->
+   <polyline fill="none" id="svg_9" points="318.0869445800781,173.3987274169922 318.0869445800781,189.2784881591797 358,189.2784881591797 358,173.3987274169922 " stroke="rgb(155, 110, 66)" stroke-linecap="square" stroke-width="2.5px"/>
+   <!-- Kaide -->
+   <rect fill="rgb(155, 110, 66)" height="26.87" id="svg_10" stroke-width="1px" width="30.52" x="234.74" y="257.68"/>
+   <rect fill="rgb(155, 110, 66)" height="4.89" id="svg_11" stroke-width="1px" width="82.17" x="208.91" y="282.11"/>
+  </g>
+  <line fill="rgb(0, 0, 0)" id="svg_12" stroke="rgb(155, 110, 66)" stroke-width="0.7px" x1="100" x2="400" y1="310" y2="310"/>
+  <text fill="rgb(240, 235, 228)" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="26px" font-weight="400" id="svg_13" letter-spacing="4" stroke-width="1px" text-anchor="middle" x="250" y="338">GÜRPINAR HUKUK</text>
+  <line fill="rgb(0, 0, 0)" id="svg_14" stroke="rgb(155, 110, 66)" stroke-width="0.7px" x1="100" x2="400" y1="350" y2="350"/>
+  <text fill="rgb(200, 168, 130)" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10px" font-weight="400" id="svg_15" letter-spacing="3" stroke-width="1px" text-anchor="middle" transform="matrix(1.12021 0 0 1.17507 -18.0235 -63.8226)" x="239.29" y="374">AV. NİSA SELİN GÜRPINAR</text>
+ </g>
+</svg>
