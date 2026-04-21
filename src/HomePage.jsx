@@ -3,6 +3,7 @@ import { useMemo, useRef, useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import SEO from "./components/SEO";
 import SchemaMarkup from "./components/SchemaMarkup";
+import { blogPosts } from "./data/blogPosts";
 
 const logoSrc = "/logo.svg";
 const heroImage = "/hero-masa.jpg";
@@ -519,6 +520,13 @@ export default function HomePage() {
 
   const [selectedArea, setSelectedArea] = useState(null);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const latestPosts = useMemo(
+    () =>
+      [...blogPosts]
+        .sort((a, b) => new Date(b.date) - new Date(a.date))
+        .slice(0, 3),
+    []
+  );
   
   const areaMap = useMemo(
     () => Object.fromEntries(practiceAreas.map((a) => [a.slug, a])),
@@ -771,6 +779,71 @@ export default function HomePage() {
                   <div className="text-lg font-medium text-white">{item.title}</div>
                   <div className="mt-3 text-sm leading-7 text-white/55">{item.desc}</div>
                 </motion.a>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section className="bg-[#0B0B0C] px-6 py-24">
+          <div className="mx-auto max-w-6xl">
+            <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
+              <div>
+                <div className="mb-4 h-[2px] w-10 bg-[#D4B26D]" />
+                <h2 className="text-4xl font-semibold tracking-[-0.02em]">Blog</h2>
+                <p className="mt-5 max-w-3xl leading-8 text-white/60">
+                  Hukuki sÃ¼reÃ§lere dair genel bilgilendirme yazÄ±larÄ±. Her konu,
+                  somut olayÄ±n Ã¶zelliklerine gÃ¶re ayrÄ±ca deÄŸerlendirilmelidir.
+                </p>
+              </div>
+
+              <Link
+                to="/blog"
+                className="inline-flex items-center text-sm text-[#D4B26D] transition hover:text-[#e7c98b]"
+              >
+                TÃ¼m yazÄ±larÄ± gÃ¶rÃ¼ntÃ¼le â†’
+              </Link>
+            </div>
+
+            <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+              {latestPosts.map((post) => (
+                <motion.article
+                  key={post.slug}
+                  initial={{ opacity: 0, y: 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true, amount: 0.2 }}
+                  transition={{ duration: 0.45 }}
+                  className="rounded-[2rem] border border-white/10 bg-white/[0.03] p-8 transition hover:border-[#D4B26D]/40 hover:bg-white/[0.05]"
+                >
+                  <div className="mb-4 h-[2px] w-10 bg-[#D4B26D]" />
+
+                  <div className="mb-3 flex flex-wrap items-center gap-3 text-xs text-white/45">
+                    <span className="rounded-full border border-white/10 px-3 py-1">
+                      {post.category}
+                    </span>
+                    <span>{new Date(post.date).toLocaleDateString("tr-TR")}</span>
+                    <span>{post.readTime}</span>
+                  </div>
+
+                  <h3 className="text-xl font-semibold tracking-[-0.01em]">
+                    <Link
+                      to={`/blog/${post.slug}`}
+                      className="transition hover:text-[#D4B26D]"
+                    >
+                      {post.title}
+                    </Link>
+                  </h3>
+
+                  <p className="mt-3 text-sm leading-7 text-white/65">
+                    {post.excerpt}
+                  </p>
+
+                  <Link
+                    to={`/blog/${post.slug}`}
+                    className="mt-6 inline-block text-sm text-[#D4B26D] hover:underline"
+                  >
+                    DevamÄ±nÄ± Oku â†’
+                  </Link>
+                </motion.article>
               ))}
             </div>
           </div>
