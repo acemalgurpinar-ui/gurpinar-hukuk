@@ -1,5 +1,76 @@
 export const blogPosts = [
   {
+    slug: "miras-paylasiminda-sakli-pay-ve-vasiyetname-hakkinda-genel-bilgiler",
+    title: "Miras Paylaşımında Saklı Pay ve Vasiyetname Hakkında Genel Bilgiler",
+    excerpt:
+      "Miras paylaşımında saklı pay, vasiyetname ve belge hazırlığı başlıklarında temel çerçeveyi kısa ve anlaşılır şekilde ele alıyoruz.",
+    date: "2026-04-21",
+    updatedAt: "2026-04-21",
+    readTime: "6 dk",
+    category: "Miras Hukuku",
+    seoTitle:
+      "Miras Paylaşımında Saklı Pay ve Vasiyetname Hakkında Genel Bilgiler | Gürpınar Hukuk Blog",
+    seoDescription:
+      "Miras paylaşımında saklı pay, vasiyetname, tereke ve hazırlık sürecine ilişkin genel bilgilendirme yazısı.",
+    content: [
+      {
+        type: "paragraph",
+        text:
+          "Miras hukuku uyuşmazlıklarında en sık karıştırılan başlıklardan bazıları saklı pay, vasiyetname ve terekenin kapsamıdır. Özellikle aile içi ilişkilerin hassas olduğu dosyalarda hukuki çerçevenin baştan netleştirilmesi, gereksiz gerilimi azaltabildiği gibi olası hak kayıplarının da önüne geçebilir.",
+      },
+      {
+        type: "heading",
+        text: "Saklı pay neyi ifade eder?",
+      },
+      {
+        type: "paragraph",
+        text:
+          "Saklı pay, belirli mirasçılar bakımından kanunun özel koruma tanıdığı payı ifade eder. Her somut olayda mirasçı sıfatı, akrabalık ilişkisi ve terekenin yapısı birlikte değerlendirilmelidir. Bu nedenle yalnızca sözlü anlatımla değil, nüfus kayıtları ve malvarlığına ilişkin verilerle hareket edilmesi önem taşır.",
+      },
+      {
+        type: "heading",
+        text: "Vasiyetname tek başına her soruyu çözmez",
+      },
+      {
+        type: "paragraph",
+        text:
+          "Bir vasiyetnamenin bulunması, paylaşım sürecindeki bütün tartışmaları kendiliğinden ortadan kaldırmaz. Vasiyetnamenin türü, şekil şartları, yorumlanması ve mirasçıların olası talepleri dosyanın gidişatını etkileyebilir. Bu nedenle belgeyi görmek, tarih ve içerik bakımından incelemek ve diğer kayıtlarla birlikte değerlendirmek gerekir.",
+      },
+      {
+        type: "heading",
+        text: "Tereke neden dikkatle tespit edilmelidir?",
+      },
+      {
+        type: "paragraph",
+        text:
+          "Miras paylaşımında sağlıklı bir değerlendirme için önce terekeye hangi malvarlığı unsurlarının dahil olduğunun anlaşılması gerekir. Taşınmazlar, banka kayıtları, şirket payları, alacaklar veya borçlar dosyanın kapsamını doğrudan etkileyebilir. Eksik veya dağınık bilgiyle yürütülen süreçler çoğu zaman gereksiz uyuşmazlık üretir.",
+      },
+      {
+        type: "list",
+        items: [
+          "Tapu, banka ve benzeri kayıtların mümkün olduğunca erken toplanması faydalıdır.",
+          "Mirasçıların kimler olduğuna ilişkin temel kayıtlar netleştirilmelidir.",
+          "Varsa vasiyetname veya miras sözleşmesi gibi belgeler düzenli biçimde saklanmalıdır.",
+          "Terekeye ilişkin borç ve yükümlülükler de malvarlığı kadar önemlidir.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Uyuşmazlık çıkmadan önce hazırlık yapılabilir mi?",
+      },
+      {
+        type: "paragraph",
+        text:
+          "Birçok dosyada sorun, hukuki tartışmadan önce iletişim ve belge eksikliği nedeniyle büyür. Oysa paylaşım öncesinde temel kayıtların toparlanması, taleplerin çerçevelenmesi ve hangi başlıkların gerçekten ihtilaflı olduğunun ayrıştırılması sürecin daha kontrollü ilerlemesine yardımcı olabilir.",
+      },
+      {
+        type: "paragraph",
+        text:
+          "Bu yazı genel bilgilendirme amacı taşır. Miras paylaşımı, saklı pay ve vasiyetnameye ilişkin değerlendirmeler somut olayın özelliklerine göre değişebilir.",
+      },
+    ],
+  },
+  {
     slug: "bosanma-velayet-ve-nafaka-hakkinda-genel-cerceve",
     title: "Boşanma, Velayet ve Nafaka Hakkında Genel Çerçeve",
     excerpt:
